@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candles</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Koulen&family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Macondo&family=Smooch&display=swap" rel="stylesheet"> 
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            color: white;
+            margin: opx;
+            padding: 0px;
+            background-image: url('img/candle2.jpg');
+        }
+        .left{
+            color: white;
+           /* border: 3px solid red; */
+           display: inline-block;
+
+           width: 30%;
+        }
+        .left img{
+            width: 50px;
+        }
+        .mid{
+            /* border: 3px solid blue; */
+            margin: auto;
+            width: 50%;
+            display: inline-block;
+        }
+        .right{
+            position: absolute;
+            /* border: 3px solid green; */
+            display: inline-block;
+            width: 20%;
+        }
+        .navbar li{
+            list-style: none;
+            float: left;
+            margin: 2px 35px;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+        }
+        .navbar li a:hover{
+             color: blue;
+             text-decoration: underline;
+         }
+        .nam{
+            color: black;
+            font-family: 'Lobster Two', cursive;
+            font-weight: bold;
+        }
+        .btn{
+            border-radius: 10px;
+            font-size: 15px;
+            padding: 5px 21px;
+            margin: 5px 8px;
+            font-size: 15px;
+
+        }
+        .container{
+            width: 350px;
+            border: 3px solid white;
+            margin: 97px 104px;
+            padding: 10px 27px;
+            border-radius: 15px;
+        }
+        .form-group input{
+            border-radius: 10px;
+            font-size: 15px;
+            padding: 5px 21px;
+            margin: 5px 8px;
+            font-size: 15px;
+        }
+        .container h2{
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+   <header class="header">
+       <div class="left">
+          <img src="img/logo.png" alt="error loading">
+          <div class="nam">Barauni</div>
+          <div class="nam">Candles</div>
+       </div>
+       <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+       </div>
+       <div class="right">
+           <button class="btn">Call Us</button>
+           <button class="btn">Email Us</button>
+       </div>
+       <div class="container">
+           <h2>Join with best company</h2>
+           <form action="backend.php">
+               <div class="form-group">
+                <input type="Name" placeholder="Name">
+               </div>
+             
+               <div class="form-group">
+                <input type="Name" placeholder="Address">
+               </div>
+             
+               <div class="form-group">
+                <input type="number" placeholder="Contact No">
+               </div>
+             
+               <div class="form-group">
+                <input type="Email" placeholder="Email">
+               </div>
+             
+               <button class="btn">Submit</button>
+           </form>
+
+       </div>
+       
+   </header>
+</body>
+</html>
